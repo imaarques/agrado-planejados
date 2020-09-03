@@ -38,7 +38,7 @@
         }
         
         #navegador {
-            height: 5em;
+            height: 7em;
         }
         
         #imagens ul {
@@ -58,10 +58,28 @@
             border-bottom: 2px solid #c21919;
         }
         
+        .serviços {
+            background: url(imagens/movel1.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 35em;
+        }
+        
+        .sobre {
+            height: 30em;
+        }
+        
         @media (max-width: 600px) {
             div li a {
                 font-size: 11px;
                 margin-right: -5px;
+            }
+            .serviços {
+                height: 35em;
+            }
+            #navegador {
+                height: 5em;
             }
         }
         
@@ -153,7 +171,55 @@
                     </div>
                 </div>
             </div>
-
+        </div>
+        <div class="container-fluid p-0">
+            <div class="row d-flex align-items-center serviços">
+                <div class="col-12 p-0 col-lg-6 d-flex justify-content-center">
+                    <div class="bg-danger col-10 rounded pt-2 d-flex align-items-center justify-content-center" style="height: 35em;">
+                        <div class="text-center">
+                            <h3 class="text-light font-weight-bold">Conheça nossos serviços</h3>
+                            <h4><a class="text-dark font-weight-bold" href="">Cozinhas</a></h4>
+                            <p class="text-light">Nossas cozinhas planejadas são feitas com muito amor e dedicação</p>
+                            <h4><a class="text-dark font-weight-bold" href="">Quartos</a></h4>
+                            <p class="text-light">Quartos planejados pensados no gosto de cada cliente</p>
+                            <h4><a class="text-dark font-weight-bold" href="">Salas</a></h4>
+                            <p class="text-light">Salas de estar, jantar ou empresariais, tudo com produtos de primeira linha</p>
+                            <h4><a class="text-dark font-weight-bold" href="">Banheiros</a></h4>
+                            <p class="text-light">Os banheiros mais agradáveis possíveis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="row bg-danger d-flex justify-content-center align-items-center text-center sobre">
+                <div class="col-10">
+                    <h1 class="text-light font-weight-bold">Sobre Nós...</h1><br/>
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, officia quae? Quod delectus iure, temporibus eligendi debitis saepe velit, repudiandae ratione maxime, voluptatibus sit iste. Harum qui omnis ducimus sunt?</p>
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, officia quae? Quod delectus iure, temporibus eligendi debitis saepe velit, repudiandae ratione maxime, voluptatibus sit iste. Harum qui omnis ducimus sunt?</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="row">
+                <footer class="col-12 p-4">
+                    <div class="container">
+                        <div class="row pt-1">
+                            <div class="col-md-6 text-center">
+                                <p>
+                                    <a class="text-dark text-decoration-none font-weight-bold ml-3" href="index.html">Home</a>
+                                    <a class="text-dark text-decoration-none font-weight-bold ml-3" href="">Galeria</a>
+                                    <a class="text-dark text-decoration-none font-weight-bold ml-3" href="">Contato</a>
+                                </p>
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center text-center">
+                                <p>Agrado Móveis Planejados &copy - Todos os direitos reservados</p>
+                            </div>
+                            <div class="d-block col-12 text-right"><span>by: @imaarques</span></div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
         </div>
 
 

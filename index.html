@@ -29,7 +29,7 @@
         }
         
         #navegador {
-            height: 6em;
+            height: 5em;
         }
         
         #imagens ul {
@@ -43,6 +43,12 @@
         
         ul li a:hover {
             border-bottom: 2px solid #c21919;
+        }
+        
+        @media (max-width: 668px) {
+            div li a {
+                font-size: 12px;
+            }
         }
     </style>
 
@@ -59,7 +65,7 @@
                     <i class="fab fa-whatsapp text-light mr-2"></i><span>(11) 99575-4196</span>
                 </div>
                 <div class="col-6 m-auto">
-                    <div class="col-md-6 col-lg-3 m-auto">
+                    <div class="col-12 d-flex justify-content-end col-md-8 justify-content-end">
                         <a href="" class="text-light ml-3">
                             <i class="fab fa-instagram"></i>
                         </a>
@@ -71,10 +77,10 @@
             </div>
             <div class="col-12 d-flex p-0">
                 <div class="col-4 col-sm-4 col-xl-4 d-flex m-auto justify-content-center align-items-center p-0 text-center" id="navegador">
-                    <img class="col-10 col-sm-8 col-md-7 col-lg-6 col-xl-5" src="imagens/agradologo.png" alt="Agrado">
+                    <img class="col-12 col-sm-10 col-md-9 col-lg-7 col-xl-5" src="imagens/agradologo.png" alt="Agrado">
                 </div>
                 <div class="col-8 col-sm-8 col-xl-8 h-100 p-0 m-auto justify-content-center">
-                    <ul class="col-sm-10 col-md-7 col-lg-6 align-items-center h-100 justify-content-center m-auto nav nav-bar">
+                    <ul class="col-sm-12 col-md-7 col-lg-6 align-items-center h-100 justify-content-center p-0 m-auto nav nav-bar">
                         <li class="nav-item"><a class="nav-link text-danger font-weight-bold" href="">HOME</a></li>
                         <li class="nav-item"><a class="nav-link text-danger font-weight-bold" href="">GALERIA</a></li>
                         <li class="nav-item"><a class="nav-link text-danger font-weight-bold" href="">CONTATO</a></li>

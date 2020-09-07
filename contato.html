@@ -126,7 +126,7 @@
                 <div class="col-8 col-sm-8 col-xl-8 h-100 p-0 m-auto justify-content-center">
                     <ul class="col-sm-9 col-md-7 col-lg-5 align-items-center h-100 justify-content-center p-0 m-auto nav nav-bar">
                         <li class="nav-item mr-1"><a class="nav-link text-danger font-weight-bold" href="index.html">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link text-danger font-weight-bold" href="">GALERIA</a></li>
+                        <li class="nav-item"><a class="nav-link text-danger font-weight-bold" href="galeria.html">GALERIA</a></li>
                         <li class="nav-item"><a class="nav-link text-danger font-weight-bold" id="ativo" href="contato.html">CONTATO</a></li>
                     </ul>
                 </div>
@@ -161,15 +161,15 @@
                 <div class="col-12 rounded d-flex m-auto text-center justify-content-center align-items-center h-75">
                     <div>
                         <h3 class="text-danger font-weight-bold">Envie-nos uma mensagem</h3><br/>
-                        <form class="text-center m-auto justify-content-center">
+                        <form class="text-center m-auto justify-content-center" method="POST" action="email.php">
                             <span class="text-dark font-weight-bold">Nome:</span>
-                            <input class="form-control mb-2" type="text" placeholder="Digite seu nome">
+                            <input class="form-control mb-2" type="text" placeholder="Digite seu nome" name="nome" required>
                             <span class="text-dark font-weight-bold">E-mail:</span>
-                            <input class="form-control mb-2" type="text" placeholder="Digite seu e-mail">
+                            <input class="form-control mb-2" type="text" placeholder="Digite seu e-mail" name="email" required>
                             <span class="text-dark font-weight-bold">Assunto:</span>
-                            <input class="form-control mb-2" type="text" placeholder="Digite o assunto">
+                            <input class="form-control mb-2" type="text" placeholder="Digite o assunto" name="assunto">
                             <span class="text-dark font-weight-bold">Mensagem:</span>
-                            <textarea class="form-control mb-2" name="mensagem" placeholder="Digite a mensagem">
+                            <textarea class="form-control mb-2" name="mensagem" placeholder="Digite a mensagem" name="mensagem" required>
 </textarea>
 
                             <input class="btn btn-danger m-2 font-weight-bold" type="submit" value="Enviar">
@@ -194,7 +194,7 @@
                         <div class="col-md-6 text-center">
                             <p>
                                 <a class="text-light text-decoration-none font-weight-bold ml-3" href="index.html">Home</a>
-                                <a class="text-light text-decoration-none font-weight-bold ml-3" href="">Galeria</a>
+                                <a class="text-light text-decoration-none font-weight-bold ml-3" href="galeria.html">Galeria</a>
                                 <a class="text-light text-decoration-none font-weight-bold ml-3" href="contato.html">Contato</a>
                             </p>
                         </div>

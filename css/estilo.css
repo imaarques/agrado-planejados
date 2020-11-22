@@ -1,90 +1,113 @@
-    html,
-    body {
-        margin: 0 auto;
-        width: 100%;
-        height: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+@font-face {
+    font-family: Trebuchet;
+    src: url(../trebuchet-ms.ttf)
+}
+
+body {
+    font-family: Trebuchet;
+}
+
+.imagens {
+    background: url(../imagens/fundoslide.png) no-repeat center;
+    background-size: cover;
+}
+
+#navegador {
+    height: 7em;
+}
+
+#imagens ul {
+    list-style: none;
+}
+
+#pag a {
+    font-size: 100px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid #c21919;
+}
+
+#ativo {
+    border-bottom: 2px solid #c21919;
+}
+
+.serviços {
+    background: url(../imagens/movel1.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 35em;
+}
+
+.sobre {
+    height: 35em;
+}
+
+@media (max-width: 600px) {
+    div li a {
+        font-size: 11px;
+        margin-right: -5px;
     }
-    
-    .header-imagem {
-        height: 25em;
-        background: url(../imagem/imagem-banco.png) no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+    .serviços {
+        height: 35em;
     }
-    
-    .conteudo-titulo {
-        width: 100%;
-        text-align: center;
-        cursor: pointer;
+    #navegador {
+        height: 5em;
     }
-    
-    .conteudo-titulo span.titulo {
-        color: #fff;
-        background-color: #111;
-        padding: 10px;
-        font-size: 22px;
-        letter-spacing: 5px;
-        text-transform: uppercase;
+    .sobre {
+        height: 45em;
     }
-    
-    .conteudo-titulo a:hover {
-        text-decoration: underline goldenrod;
-    }
-    
-    .titulo1 {
-        margin-top: 6em;
-    }
-    
-    .caixa {
-        background-color: #1f1f1f;
-        padding: 60px 0px;
-    }
-    
-    .caixa2 {
-        padding: 60px 0px;
-        background-color: #f1f1f1;
-    }
-    
-    .titulofooter {
-        color: #795600;
-    }
-    
-    
-    @media (max-width: 668px) {
-        .mensagem {
-            display: none;
-        }
-        .dmao {
-            text-align: center;
-        }
-    }
-    
-    @media (min-width: 1000px) {
-        .botao {
-            display: none;
-        }
-    }
-    
-    @media (max-width: 762px) {
-        .logo {
-            width: 150px;
-        }
-        .botao {
-            width: 100px;
-            text-align: right;
-            padding-right: 0px;
-        }
-        #cartao {
-            margin-left: -5px;
-        }
-        .divmargem {
-            margin-bottom: 15px;
-        }
-    }
-    
-    @media (max-width: 962px) {
-        .item-nav:hover {
-            padding-left: 7px;
-        }
-    }
+}
+
+.imagemgaleria {
+    border-radius: 5px;
+}
+
+.divgaleria img:hover {
+    opacity: 0.7;
+}
+
+.linkgaleria a {
+    text-decoration: none;
+}
+
+#galeriaativa {
+    color: darkred;
+}
+
+.divfundo {
+    background: url(../imagens/movel1.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+
+.contato1 {
+    height: 35em;
+    background: url(../imagens/movel1.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contato2 {
+    height: 35em;
+}
+
+.contato3 {
+    height: 19em;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 10px;
+}
+
+.traco {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

@@ -121,15 +121,6 @@ ul li a:hover {
     margin: 0 auto;
 }
 
-.imaarques img {
-    margin: 0 auto;
-    width: 85px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .desenvolvidopor {
     color: white;
     text-align: center;
